@@ -1,9 +1,12 @@
 import "./App.scss";
 import "./App.css";
 
+import PatternBackground from "../src/images/pattern-background-desktop.svg";
+
 function App() {
   return (
     <div>
+      <img className="patternBackground" src={PatternBackground} alt="" />
       <div>
         <h1>Order Summary</h1>
         <p>
